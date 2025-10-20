@@ -129,10 +129,11 @@ Arroz5.position.set(0,0,0);
 Arroz5.rotation.set(0,-1.5,0); 
 //scene.add(Arroz5);
 
-const poll01 = new THREE.Group(); 
-poll01.add(mesh1,mat02,mesh02,mesh03,mesh04,mesh05,mesh06,mesh07,mesh08,mesh10,mesh09,mesh11,mesh12,mesh13,Arroz,Arroz2,Arroz3,Arroz4,Arroz5); 
-poll01.position.set(x,y,z); 
+const POLL01 = new THREE.Group(); 
+POLL01.add(mesh1,mat02,mesh02,mesh03,mesh04,mesh05,mesh06,mesh07,mesh08,mesh10,mesh09,mesh11,mesh12,mesh13,Arroz,Arroz2,Arroz3,Arroz4,Arroz5); 
+POLL01.position.set(x,y,z); 
 
-return poll01; 
+return POLL01; 
+
 
 }
